@@ -29,10 +29,9 @@ export const Route = createFileRoute("/")({
   component: Landing,
 });
 
-// Simulated WhatsApp data
-const WA_PHONE = "51999888777"; // demo number
-const wa = (msg: string) =>
-  `https://wa.me/${WA_PHONE}?text=${encodeURIComponent(msg)}`;
+const WA_PHONE = "51960339209";
+const wa = () =>
+  `https://wa.me/${WA_PHONE}?text=${encodeURIComponent("Hola, quiero mas informacion")}`;
 
 const services = [
   {
