@@ -176,8 +176,7 @@ function Hero() {
           <em className="not-italic text-gold">detalle</em> que mereces.
         </h1>
         <p className="mt-6 max-w-lg text-base text-cream/85 sm:text-lg">
-          Micropigmentación, cejas, pestañas, skincare y nail bar.
-          Tratamientos diseñados para realzar tu esencia única.
+          Perfección estética para inspirar tu confianza y descubrir la mejor expresión de tu belleza natural.
         </p>
 
         <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
@@ -237,7 +236,7 @@ function Services() {
         <div className="mb-12 max-w-2xl">
           <p className="mb-3 text-[11px] uppercase tracking-[0.35em] text-gold">Servicios</p>
           <h2 className="text-4xl leading-tight sm:text-5xl">
-            Tratamientos pensados al detalle.
+            Realza tu belleza y vive la mejor experiencia
           </h2>
           <p className="mt-4 text-muted-foreground">
             Cada protocolo combina técnica, productos premium y una experiencia
