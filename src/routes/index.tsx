@@ -29,10 +29,9 @@ export const Route = createFileRoute("/")({
   component: Landing,
 });
 
-// Simulated WhatsApp data
-const WA_PHONE = "51999888777"; // demo number
-const wa = (msg: string) =>
-  `https://wa.me/${WA_PHONE}?text=${encodeURIComponent(msg)}`;
+const WA_PHONE = "51960339209";
+const wa = () =>
+  `https://wa.me/${WA_PHONE}?text=${encodeURIComponent("Hola, quiero mas informacion")}`;
 
 const services = [
   {
@@ -141,7 +140,7 @@ function Nav() {
           </span>
         </a>
         <a
-          href={wa("Hola Filigran 👋, vengo desde su web y quisiera información.")}
+          href={wa()}
           target="_blank"
           rel="noopener"
           className="hidden rounded-full bg-cream/95 px-5 py-2 text-xs font-medium tracking-widest text-cocoa transition hover:bg-cream sm:inline-flex"
@@ -177,13 +176,12 @@ function Hero() {
           <em className="not-italic text-gold">detalle</em> que mereces.
         </h1>
         <p className="mt-6 max-w-lg text-base text-cream/85 sm:text-lg">
-          Micropigmentación, cejas, pestañas, skincare y nail bar.
-          Tratamientos diseñados para realzar tu esencia única.
+          Perfección estética para inspirar tu confianza y descubrir la mejor expresión de tu belleza natural.
         </p>
 
         <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
           <a
-            href={wa("Hola Filigran 👋, vengo de su anuncio y quiero agendar una cita.")}
+            href={wa()}
             target="_blank"
             rel="noopener"
             className="group inline-flex h-14 items-center justify-center gap-3 rounded-full bg-whatsapp px-7 text-base font-medium text-white shadow-lg shadow-whatsapp/30 transition hover:bg-whatsapp-dark"
@@ -238,7 +236,7 @@ function Services() {
         <div className="mb-12 max-w-2xl">
           <p className="mb-3 text-[11px] uppercase tracking-[0.35em] text-gold">Servicios</p>
           <h2 className="text-4xl leading-tight sm:text-5xl">
-            Tratamientos pensados al detalle.
+            Realza tu belleza y vive la mejor experiencia
           </h2>
           <p className="mt-4 text-muted-foreground">
             Cada protocolo combina técnica, productos premium y una experiencia
@@ -250,7 +248,7 @@ function Services() {
           {services.map((s) => (
             <a
               key={s.title}
-              href={wa(s.msg)}
+              href={wa()}
               target="_blank"
               rel="noopener"
               className="group relative flex flex-col overflow-hidden rounded-2xl bg-card shadow-sm ring-1 ring-border transition hover:shadow-xl"
@@ -345,7 +343,7 @@ function BeforeAfter() {
             <h2 className="text-4xl sm:text-5xl">Antes & después.</h2>
           </div>
           <a
-            href={wa("Hola Filigran 👋, me gustaría ver más resultados reales de sus clientas.")}
+            href={wa()}
             target="_blank"
             rel="noopener"
             className="text-sm text-cocoa underline underline-offset-4"
@@ -481,7 +479,7 @@ function Locations() {
                 <div className="flex flex-wrap items-baseline justify-between gap-2">
                   <h3 className="text-xl text-cream">{l.n}</h3>
                   <a
-                    href={wa(`Hola Filigran 👋, quisiera agendar una cita en ${l.n}.`)}
+                    href={wa()}
                     target="_blank"
                     rel="noopener"
                     className="text-xs uppercase tracking-[0.25em] text-gold"
@@ -508,7 +506,7 @@ function FAQ() {
           <p className="mb-3 text-[11px] uppercase tracking-[0.35em] text-gold">Dudas frecuentes</p>
           <h2 className="text-4xl sm:text-5xl">Tranquila, tenemos respuestas.</h2>
           <a
-            href={wa("Hola Filigran 👋, tengo una duda específica sobre un tratamiento.")}
+            href={wa()}
             target="_blank"
             rel="noopener"
             className="mt-6 inline-block text-sm text-cocoa underline underline-offset-4"
@@ -545,7 +543,7 @@ function FinalCTA() {
           esperas. Solo escríbenos y coordinamos.
         </p>
         <a
-          href={wa("Hola Filigran 👋, quiero reservar mi cita.")}
+          href={wa()}
           target="_blank"
           rel="noopener"
           className="mt-8 inline-flex h-14 items-center justify-center gap-3 rounded-full bg-whatsapp px-8 text-base font-medium text-white shadow-lg shadow-whatsapp/30 transition hover:bg-whatsapp-dark"
@@ -567,8 +565,8 @@ function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 sm:flex-row">
         <span className="font-serif text-lg tracking-[0.25em] text-cocoa">FILIGRAN</span>
         <p>© {new Date().getFullYear()} Filigran Beauty Center · Lima, Perú</p>
-        <a href={wa("Hola Filigran 👋")} target="_blank" rel="noopener" className="hover:text-cocoa">
-          WhatsApp +51 999 888 777
+        <a href={wa()} target="_blank" rel="noopener" className="hover:text-cocoa">
+          WhatsApp +51 960 339 209
         </a>
       </div>
     </footer>
@@ -583,7 +581,7 @@ function WhatsAppFloat() {
   }, []);
   return (
     <a
-      href={wa("Hola Filigran 👋, vengo de su web y quisiera más información.")}
+      href={wa()}
       target="_blank"
       rel="noopener"
       aria-label="Chatear por WhatsApp"
