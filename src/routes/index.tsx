@@ -65,7 +65,7 @@ const services = [
     msg: "Hola Filigran 👋, quisiera información sobre Limpieza Facial.",
   },
   {
-    title: "Cejas",
+    title: "4.7",
     desc: "Manicure y pedicure premium en un espacio relajante y elegante.",
     img: nailsImg,
     msg: "Hola Filigran 👋, quiero reservar en Cejas.",
