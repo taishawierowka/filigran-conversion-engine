@@ -572,12 +572,46 @@ function FinalCTA() {
 function Footer() {
   return (
     <footer className="border-t border-border bg-muted/40 px-5 py-10 text-sm text-muted-foreground">
-      <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 sm:flex-row">
+      <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 sm:flex-row">
         <span className="font-serif text-lg tracking-[0.25em] text-cocoa">FILIGRAN</span>
         <p>© {new Date().getFullYear()} Filigran Beauty Center · Lima, Perú</p>
-        <a href={wa()} target="_blank" rel="noopener" className="hover:text-cocoa">
-          WhatsApp +51 960 339 209
-        </a>
+        <div className="flex items-center gap-4">
+          <a
+            href="https://www.instagram.com/filigranbc/?hl=es"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            className="text-muted-foreground transition hover:text-cocoa"
+          >
+            <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+            </svg>
+          </a>
+          <a
+            href="https://www.tiktok.com/@filigranbc?is_from_webapp=1&sender_device=pc"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="TikTok"
+            className="text-muted-foreground transition hover:text-cocoa"
+          >
+            <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor">
+              <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.88-2.89 2.89 2.89 0 0 1 2.88-2.89c.26 0 .5.04.74.1v-3.5a6.33 6.33 0 0 0-.74-.05A6.38 6.38 0 0 0 2 15.38 6.38 6.38 0 0 0 8.38 21.76c3.42 0 6.2-2.69 6.36-6.07V8.73a8.15 8.15 0 0 0 4.85 1.61V6.69z" />
+            </svg>
+          </a>
+          <a
+            href="https://www.facebook.com/people/Filigran-Beauty-Center/100075780114868/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+            className="text-muted-foreground transition hover:text-cocoa"
+          >
+            <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+            </svg>
+          </a>
+        </div>
       </div>
     </footer>
   );
