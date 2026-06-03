@@ -187,7 +187,7 @@ function Hero() {
     <section id="top" className="relative isolate overflow-hidden bg-cocoa text-cream">
       <div className="absolute inset-0 -z-10">
         <img
-          src={heroImg}
+          src={heroAsset.url}
           alt="Mujer con cejas y maquillaje natural perfecto en Filigran Beauty Center"
           width={1024}
           height={1280}
