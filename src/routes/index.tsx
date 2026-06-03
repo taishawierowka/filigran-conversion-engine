@@ -10,6 +10,7 @@ import labiosVideo from "@/assets/micropigmentacion-labios.mp4.asset.json";
 import skincareAsset from "@/assets/skincare-facial.jpg.asset.json";
 import skincareVideo from "@/assets/skincare-facial-v2.mp4.asset.json";
 import nailsImg from "@/assets/service-nails.jpg";
+import armonizacionCejasAsset from "@/assets/armonizacion-cejas.jpg.asset.json";
 import salonImg from "@/assets/salon-interior.jpg";
 import sedeSanIsidro from "@/assets/sede-san-isidro.png.asset.json";
 import sedeMiraflores from "@/assets/sede-miraflores.jpg.asset.json";
@@ -64,10 +65,10 @@ const services = [
     msg: "Hola Filigran 👋, me interesa la Micropigmentación de Labios.",
   },
   {
-    title: "4.7",
-    desc: "Manicure y pedicure premium en un espacio relajante y elegante.",
-    img: nailsImg,
-    msg: "Hola Filigran 👋, quiero reservar en Cejas.",
+    title: "Armonización de cejas",
+    desc: "Diseñamos y realzamos tus cejas respetando su forma natural y la armonía de tu rostro. Tratamientos personalizados para lograr una mirada más definida, estilizada y naturalmente hermosa.",
+    img: armonizacionCejasAsset.url,
+    msg: "Hola Filigran 👋, quiero información sobre Armonización de cejas.",
   },
   {
     title: "Skincare & Limpieza Facial",
