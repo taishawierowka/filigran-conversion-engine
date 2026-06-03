@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import heroImg from "@/assets/hero-beauty.jpg";
+import heroAsset from "@/assets/hero-realzamos.jpg.asset.json";
 import cejasAsset from "@/assets/micropigmentacion-cejas.png.asset.json";
 import cejasVideo from "@/assets/micropigmentacion-cejas.mp4.asset.json";
 import pestanasImg from "@/assets/service-pestanas.jpg";
@@ -187,7 +187,7 @@ function Hero() {
     <section id="top" className="relative isolate overflow-hidden bg-cocoa text-cream">
       <div className="absolute inset-0 -z-10">
         <img
-          src={heroImg}
+          src={heroAsset.url}
           alt="Mujer con cejas y maquillaje natural perfecto en Filigran Beauty Center"
           width={1024}
           height={1280}
