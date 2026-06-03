@@ -290,7 +290,7 @@ function WhyUs() {
     },
     {
       t: "Productos premium",
-      d: "Pigmentos y cosmética profesional con certificación internacional.",
+      d: "Pigmentos y cosmética profesional certificados por DIGEMID.",
     },
     {
       t: "Experiencia cálida",
