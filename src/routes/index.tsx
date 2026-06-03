@@ -4,7 +4,7 @@ import heroImg from "@/assets/hero-beauty.jpg";
 import cejasImg from "@/assets/service-cejas.jpg";
 import pestanasImg from "@/assets/service-pestanas.jpg";
 import labiosImg from "@/assets/service-labios.jpg";
-import skincareImg from "@/assets/service-skincare.jpg";
+import skincareAsset from "@/assets/skincare-facial.png.asset.json";
 import nailsImg from "@/assets/service-nails.jpg";
 import salonImg from "@/assets/salon-interior.jpg";
 import sedeSanIsidro from "@/assets/sede-san-isidro.png.asset.json";
@@ -60,7 +60,7 @@ const services = [
   {
     title: "Skincare & Limpieza Facial",
     desc: "Protocolos personalizados para una piel luminosa y saludable.",
-    img: skincareImg,
+    img: skincareAsset.url,
     msg: "Hola Filigran 👋, quisiera información sobre Limpieza Facial.",
   },
   {
