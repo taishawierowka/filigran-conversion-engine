@@ -5,7 +5,7 @@ import cejasAsset from "@/assets/micropigmentacion-cejas.png.asset.json";
 import pestanasImg from "@/assets/service-pestanas.jpg";
 import liftingPestanasAsset from "@/assets/lifting-pestanas.png.asset.json";
 import labiosImg from "@/assets/service-labios.jpg";
-import skincareAsset from "@/assets/skincare-facial.png.asset.json";
+import skincareAsset from "@/assets/skincare-facial.jpg.asset.json";
 import nailsImg from "@/assets/service-nails.jpg";
 import salonImg from "@/assets/salon-interior.jpg";
 import sedeSanIsidro from "@/assets/sede-san-isidro.png.asset.json";
