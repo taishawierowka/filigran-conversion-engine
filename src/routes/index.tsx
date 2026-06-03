@@ -500,37 +500,6 @@ function Locations() {
   );
 }
 
-function _OldLocations() {
-  return null;
-
-          <p className="mt-4 max-w-md text-cream/75">
-            Elige el local que te quede más cerca. Atención con cita previa
-            para garantizar tu experiencia.
-          </p>
-          <ul className="mt-8 space-y-5">
-            {locs.map((l) => (
-              <li key={l.n} className="border-t border-cream/15 pt-4">
-                <div className="flex flex-wrap items-baseline justify-between gap-2">
-                  <h3 className="text-xl text-cream">{l.n}</h3>
-                  <a
-                    href={wa()}
-                    target="_blank"
-                    rel="noopener"
-                    className="text-xs uppercase tracking-[0.25em] text-gold"
-                  >
-                    Reservar →
-                  </a>
-                </div>
-                <p className="text-sm text-cream/70">{l.a}</p>
-                <p className="text-xs text-cream/50">{l.h}</p>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
-    </section>
-  );
-}
 
 function FAQ() {
   return (
