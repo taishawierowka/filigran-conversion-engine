@@ -201,10 +201,10 @@ function Hero() {
 
         <div className="mt-10 flex flex-wrap items-center gap-x-7 gap-y-3 text-xs text-cream/70">
           <span className="flex items-center gap-2">
-            <Stars /> 4.9 / 5 en Google
+            <Stars /> 4.7/5 en Google
           </span>
-          <span>+8 años de experiencia</span>
-          <span>3 locales en Lima</span>
+          <span>+3 años de experiencia</span>
+          <span>2 locales en Lima</span>
         </div>
       </div>
     </section>
@@ -216,8 +216,6 @@ function TrustBar() {
     "Pigmentos certificados",
     "Bioseguridad nivel clínico",
     "Especialistas certificadas",
-    "Retoque incluido",
-    "+10.000 clientas felices",
   ];
   return (
     <div className="border-y border-border bg-muted/60">
@@ -288,7 +286,7 @@ function WhyUs() {
     },
     {
       t: "Especialistas certificadas",
-      d: "Equipo formado en las mejores academias de Latinoamérica y Europa.",
+      d: "Equipo formado en las mejores academias de Latinoamérica.",
     },
     {
       t: "Productos premium",
@@ -327,6 +325,12 @@ function WhyUs() {
             </div>
           ))}
         </div>
+
+        <div className="mt-8 flex items-center justify-center gap-2 rounded-full border border-cream/20 bg-cream/5 px-5 py-2.5 text-xs uppercase tracking-[0.2em] text-gold">
+          <span>✦</span>
+          <span>+10.000 clientas felices</span>
+          <span>✦</span>
+        </div>
       </div>
     </section>
   );
@@ -349,7 +353,7 @@ function BeforeAfter() {
             rel="noopener"
             className="text-sm text-cocoa underline underline-offset-4"
           >
-            Pídenos más resultados por WhatsApp →
+            Tu cambio puede comenzar hoy →
           </a>
         </div>
 
@@ -425,7 +429,7 @@ function Testimonials() {
             <div className="flex items-center justify-end gap-2">
               <Stars className="text-gold" /> <span className="font-medium">4.9</span>
             </div>
-            <p className="text-xs text-muted-foreground">+800 reseñas verificadas</p>
+            <p className="text-xs text-muted-foreground">+80 reseñas verificadas</p>
           </div>
         </div>
 
@@ -538,7 +542,7 @@ function FinalCTA() {
       <div className="mx-auto max-w-5xl overflow-hidden rounded-3xl bg-gradient-to-br from-cocoa to-[oklch(0.28_0.025_50)] px-7 py-16 text-center text-cream sm:py-20">
         <p className="mb-3 text-[11px] uppercase tracking-[0.35em] text-gold">Tu cita te espera</p>
         <h2 className="mx-auto max-w-2xl text-4xl text-cream sm:text-5xl">
-          Reserva en menos de <em className="not-italic text-gold">1 minuto</em>.
+          Reserva en menos de <em className="not-italic text-gold">5 minutos</em>.
         </h2>
         <p className="mx-auto mt-4 max-w-lg text-cream/75">
           Te respondemos al instante por WhatsApp. Sin formularios, sin
@@ -554,7 +558,7 @@ function FinalCTA() {
           Reservar por WhatsApp
         </a>
         <p className="mt-4 text-xs text-cream/50">
-          Respuesta promedio: 5 minutos · Lun–Vie 9:00–20:00 · Sáb 9:00–19:00
+          Lun–Vie 9:00–20:00 · Sáb 9:00–19:00
         </p>
       </div>
     </section>
