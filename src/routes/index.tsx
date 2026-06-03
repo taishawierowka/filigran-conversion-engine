@@ -373,7 +373,7 @@ function BeforeAfter() {
                 className="aspect-square w-full object-cover"
               />
               <div className="absolute bottom-3 left-3 rounded-full bg-cocoa/85 px-3 py-1 text-[10px] uppercase tracking-[0.2em] text-cream">
-                Caso real · 2026
+                {i === 0 ? "ANTES" : i === 1 ? "DESPUÉS" : "FILIGRAN EN ACCIÓN"}
               </div>
             </div>
           ))}
