@@ -201,10 +201,10 @@ function Hero() {
 
         <div className="mt-10 flex flex-wrap items-center gap-x-7 gap-y-3 text-xs text-cream/70">
           <span className="flex items-center gap-2">
-            <Stars /> 4.9 / 5 en Google
+            <Stars /> 4.7/5 en Google
           </span>
-          <span>+8 años de experiencia</span>
-          <span>3 locales en Lima</span>
+          <span>+3 años de experiencia</span>
+          <span>2 locales en Lima</span>
         </div>
       </div>
     </section>
