@@ -11,6 +11,7 @@ import sedeSanIsidro from "@/assets/sede-san-isidro.png.asset.json";
 import sedeMiraflores from "@/assets/sede-miraflores.jpg.asset.json";
 import vaniaAvatar from "@/assets/vania-mitre.png.asset.json";
 import daniAvatar from "@/assets/dani-ginocchio.png.asset.json";
+import mariagraziaAvatar from "@/assets/mariagrazia.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -94,12 +95,12 @@ const testimonios = [
     avatar: daniAvatar.url,
   },
   {
-    name: "Andrea P.",
-    text: "Encontré mi beauty center de cabecera. Profesionales, puntuales y resultados de verdad premium.",
-    role: "Skincare + Cejas",
-    instagram: "",
-    instagramUrl: "",
-    avatar: "",
+    name: "Maria Grazia",
+    text: "Excelente experiencia en Filigran 🌸 Desde que llegas te hacen sentir súper cómoda y bien atendida. Quiero destacar la puntualidad, la amabilidad de todo el equipo y todos los detalles durante la atención, realmente te hacen sentir engreída.\n\nAdemás, la calidad de los servicios es increíble y se nota mucho el profesionalismo en cada paso. Definitivamente volvería y lo recomiendo muchísimo 🤍",
+    role: "Experiencia Filigran",
+    instagram: "mariagrazia._23",
+    instagramUrl: "https://www.instagram.com/mariagrazia._23/?hl=es",
+    avatar: mariagraziaAvatar.url,
   },
 ];
 
