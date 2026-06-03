@@ -401,7 +401,7 @@ function BeforeAfter() {
           {[
             { src: antesSkincareAsset.url, type: "image", label: "antes" },
             { src: filigranAccionVideo.url, type: "video", label: "filigran en accion" },
-            { src: labiosAsset.url, type: "image", label: "despues" },
+            { src: despuesSkincareAsset.url, type: "image", label: "despues" },
           ].map((item, i) => (
             <div key={i} className="relative overflow-hidden rounded-2xl">
               {item.type === "video" ? (
