@@ -213,7 +213,7 @@ function Hero() {
             href={wa()}
             target="_blank"
             rel="noopener"
-            className="group inline-flex h-14 items-center justify-center gap-3 rounded-full bg-whatsapp text-base font-medium text-white shadow-lg shadow-whatsapp/30 transition hover:bg-whatsapp-dark sm:px-7 mx-0 px-[16px]"
+            className="group inline-flex h-14 items-center justify-center gap-3 rounded-full bg-whatsapp text-base font-medium text-white shadow-lg shadow-whatsapp/30 transition hover:bg-whatsapp-dark sm:px-7 px-[16px] mx-[16px]"
           >
             <WaIcon className="h-5 w-5" />
             Agendar por WhatsApp
