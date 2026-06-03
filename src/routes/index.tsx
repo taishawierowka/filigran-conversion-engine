@@ -396,7 +396,7 @@ function BeforeAfter() {
         </div>
 
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {[cejasAsset.url, pestanasImg, labiosAsset.url].map((img, i) => (
+          {[antesSkincareAsset.url, pestanasImg, labiosAsset.url].map((img, i) => (
             <div key={i} className="relative overflow-hidden rounded-2xl">
               <img
                 src={img}
