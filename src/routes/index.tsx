@@ -656,28 +656,25 @@ function Footer() {
 }
 
 function WhatsAppFloat() {
-  const [show, setShow] = useState(false);
   useEffect(() => {
-    const t = setTimeout(() => setShow(true), 1200);
-    return () => clearTimeout(t);
+    if (document.getElementById("beast-webchat-embed")) return;
+    const s = document.createElement("script");
+    s.id = "beast-webchat-embed";
+    s.src = "https://chat-widget-static.hivara.ai/embed.js";
+    s.async = true;
+    s.dataset.apiUrl = "https://chat-widget.hivara.ai";
+    s.dataset.orgId = "39";
+    s.dataset.channelId = "986";
+    s.dataset.platformName = "Filigran";
+    s.dataset.theme = "dark";
+    s.dataset.debug = "true";
+    s.dataset.niche = "Estetica";
+    s.dataset.welcomeMessage = "Consulta o agenda tu cita aquí";
+    s.dataset.firstMessage = "¡Hola, bienvenida!";
+    s.dataset.iconUrl = "https://i.postimg.cc/HkPXFbNx/filigran-logo.jpg";
+    document.body.appendChild(s);
   }, []);
-  return (
-    <a
-      href={wa()}
-      target="_blank"
-      rel="noopener"
-      aria-label="Chatear por WhatsApp"
-      className={`fixed bottom-5 right-5 z-40 flex h-16 w-16 items-center justify-center rounded-full bg-whatsapp text-white shadow-2xl shadow-whatsapp/40 transition-all duration-500 hover:bg-whatsapp-dark sm:bottom-7 sm:right-7 ${
-        show ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
-      }`}
-    >
-      <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-whatsapp opacity-30" />
-      <WaIcon className="relative h-8 w-8" />
-      <span className="absolute -top-1 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-gold text-[10px] font-bold text-cocoa">
-        1
-      </span>
-    </a>
-  );
+  return null;
 }
 
 function Stars({ className = "" }: { className?: string }) {
