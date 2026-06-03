@@ -4,7 +4,7 @@ import heroImg from "@/assets/hero-beauty.jpg";
 import cejasAsset from "@/assets/micropigmentacion-cejas.png.asset.json";
 import pestanasImg from "@/assets/service-pestanas.jpg";
 import liftingPestanasAsset from "@/assets/lifting-pestanas.jpg.asset.json";
-import labiosImg from "@/assets/service-labios.jpg";
+import labiosAsset from "@/assets/micropigmentacion-labios.jpg.asset.json";
 import skincareAsset from "@/assets/skincare-facial.jpg.asset.json";
 import nailsImg from "@/assets/service-nails.jpg";
 import salonImg from "@/assets/salon-interior.jpg";
@@ -55,7 +55,7 @@ const services = [
   {
     title: "Micropigmentación de Labios",
     desc: "Color natural, simetría perfecta y un acabado luminoso y duradero.",
-    img: labiosImg,
+    img: labiosAsset.url,
     msg: "Hola Filigran 👋, me interesa la Micropigmentación de Labios.",
   },
   {
@@ -375,7 +375,7 @@ function BeforeAfter() {
         </div>
 
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {[cejasAsset.url, pestanasImg, labiosImg].map((img, i) => (
+          {[cejasAsset.url, pestanasImg, labiosAsset.url].map((img, i) => (
             <div key={i} className="relative overflow-hidden rounded-2xl">
               <img
                 src={img}
