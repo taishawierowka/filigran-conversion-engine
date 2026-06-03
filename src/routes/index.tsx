@@ -9,6 +9,7 @@ import nailsImg from "@/assets/service-nails.jpg";
 import salonImg from "@/assets/salon-interior.jpg";
 import sedeSanIsidro from "@/assets/sede-san-isidro.png.asset.json";
 import sedeMiraflores from "@/assets/sede-miraflores.jpg.asset.json";
+import vaniaAvatar from "@/assets/vania-mitre.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
