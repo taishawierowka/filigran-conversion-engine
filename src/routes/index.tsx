@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import heroImg from "@/assets/hero-beauty.jpg";
 import cejasImg from "@/assets/service-cejas.jpg";
 import pestanasImg from "@/assets/service-pestanas.jpg";
+import liftingPestanasAsset from "@/assets/lifting-pestanas.png.asset.json";
 import labiosImg from "@/assets/service-labios.jpg";
 import skincareAsset from "@/assets/skincare-facial.png.asset.json";
 import nailsImg from "@/assets/service-nails.jpg";
@@ -46,9 +47,9 @@ const services = [
     msg: "Hola Filigran 👋, vengo de Instagram y quiero información sobre Micropigmentación de Cejas.",
   },
   {
-    title: "Lifting & Tinte de Pestañas",
+    title: "Lifting de Pestañas",
     desc: "Mirada elevada y definida sin extensiones, por hasta 8 semanas.",
-    img: pestanasImg,
+    img: liftingPestanasAsset.url,
     msg: "Hola Filigran 👋, quisiera agendar Lifting de Pestañas.",
   },
   {
