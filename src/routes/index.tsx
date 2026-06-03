@@ -65,10 +65,10 @@ const services = [
     msg: "Hola Filigran 👋, me interesa la Micropigmentación de Labios.",
   },
   {
-    title: "4.7",
-    desc: "Manicure y pedicure premium en un espacio relajante y elegante.",
-    img: nailsImg,
-    msg: "Hola Filigran 👋, quiero reservar en Cejas.",
+    title: "Armonización de cejas",
+    desc: "Diseñamos y realzamos tus cejas respetando su forma natural y la armonía de tu rostro. Tratamientos personalizados para lograr una mirada más definida, estilizada y naturalmente hermosa.",
+    img: armonizacionCejasAsset.url,
+    msg: "Hola Filigran 👋, quiero información sobre Armonización de cejas.",
   },
   {
     title: "Skincare & Limpieza Facial",
