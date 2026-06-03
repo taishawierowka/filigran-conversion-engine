@@ -397,18 +397,33 @@ function BeforeAfter() {
         </div>
 
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {[antesSkincareAsset.url, pestanasImg, labiosAsset.url].map((img, i) => (
+          {[
+            { src: antesSkincareAsset.url, type: "image", label: "antes" },
+            { src: filigranAccionVideo.url, type: "video", label: "filigran en accion" },
+            { src: labiosAsset.url, type: "image", label: "despues" },
+          ].map((item, i) => (
             <div key={i} className="relative overflow-hidden rounded-2xl">
-              <img
-                src={img}
-                alt={`Resultado de tratamiento ${i + 1}`}
-                loading="lazy"
-                width={800}
-                height={800}
-                className="aspect-square w-full object-cover"
-              />
+              {item.type === "video" ? (
+                <video
+                  src={item.src}
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  className="aspect-square w-full object-cover"
+                />
+              ) : (
+                <img
+                  src={item.src}
+                  alt={`Resultado de tratamiento ${i + 1}`}
+                  loading="lazy"
+                  width={800}
+                  height={800}
+                  className="aspect-square w-full object-cover"
+                />
+              )}
               <div className="absolute bottom-3 left-3 rounded-full bg-cocoa/85 px-3 py-1 text-[10px] uppercase tracking-[0.2em] text-cream">
-                {i === 0 ? "antes" : i === 1 ? "filigran en accion" : "despues"}
+                {item.label}
               </div>
             </div>
           ))}
