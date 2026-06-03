@@ -61,10 +61,10 @@ const services = [
     msg: "Hola Filigran 👋, quisiera información sobre Limpieza Facial.",
   },
   {
-    title: "Nail Bar",
+    title: "Cejas",
     desc: "Manicure y pedicure premium en un espacio relajante y elegante.",
     img: nailsImg,
-    msg: "Hola Filigran 👋, quiero reservar en el Nail Bar.",
+    msg: "Hola Filigran 👋, quiero reservar en Cejas.",
   },
   {
     title: "Paquetes",
@@ -88,7 +88,7 @@ const testimonios = [
   {
     name: "Andrea P.",
     text: "Encontré mi beauty center de cabecera. Profesionales, puntuales y resultados de verdad premium.",
-    role: "Skincare + Nail Bar",
+    role: "Skincare + Cejas",
   },
 ];
 
@@ -189,7 +189,7 @@ function Hero() {
             href={wa()}
             target="_blank"
             rel="noopener"
-            className="group inline-flex h-14 items-center justify-center gap-3 rounded-full bg-whatsapp px-4 text-base font-medium text-white shadow-lg shadow-whatsapp/30 transition hover:bg-whatsapp-dark sm:px-7"
+            className="group inline-flex h-14 items-center justify-center gap-3 rounded-full bg-whatsapp text-base font-medium text-white shadow-lg shadow-whatsapp/30 transition hover:bg-whatsapp-dark sm:px-7 mx-0 px-[16px]"
           >
             <WaIcon className="h-5 w-5" />
             Agendar por WhatsApp
@@ -431,7 +431,7 @@ function Testimonials() {
           </div>
           <div className="hidden text-right sm:block">
             <div className="flex items-center justify-end gap-2">
-              <Stars className="text-gold" /> <span className="font-medium">4.9</span>
+              <Stars className="text-gold" /> <span className="font-medium">Cejas</span>
             </div>
             <p className="text-xs text-muted-foreground">+80 reseñas verificadas</p>
           </div>
