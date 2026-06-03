@@ -174,8 +174,7 @@ function Hero() {
           Filigran · Beauty Center
         </p>
         <h1 className="max-w-2xl font-serif text-[44px] leading-[1.02] sm:text-6xl md:text-7xl">
-          Belleza con el<br />
-          <em className="not-italic text-gold">detalle</em> que mereces.
+          Realza tu <em className="not-italic text-gold">belleza</em>.
         </h1>
         <p className="mt-6 max-w-lg text-base text-cream/85 sm:text-lg">
           Perfección estética para inspirar tu confianza y descubrir la mejor expresión de tu belleza natural.
