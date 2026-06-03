@@ -9,6 +9,7 @@ import nailsImg from "@/assets/service-nails.jpg";
 import salonImg from "@/assets/salon-interior.jpg";
 import sedeSanIsidro from "@/assets/sede-san-isidro.png.asset.json";
 import sedeMiraflores from "@/assets/sede-miraflores.jpg.asset.json";
+import vaniaAvatar from "@/assets/vania-mitre.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -76,19 +77,28 @@ const services = [
 
 const testimonios = [
   {
-    name: "Camila R.",
-    text: "Mis cejas quedaron naturales y simétricas. La atención es impecable, te explican todo antes y durante. Volveré sin duda.",
-    role: "Micropigmentación de cejas",
+    name: "Vania Mitre",
+    text: "Fui a Filigran y de verdad me encantó la experiencia 💗 Me hice una limpieza facial profunda y la híper hidratación de labios, y todo estuvo increíble. Los tratamientos son súper relajantes y desde el primer momento me hicieron sentir demasiado cómoda y bien atendida.",
+    role: "Limpieza facial + Hidratación de labios",
+    instagram: "vaniamitre",
+    instagramUrl: "https://www.instagram.com/vaniamitre/",
+    avatar: vaniaAvatar.url,
   },
   {
     name: "Lucía M.",
     text: "El lifting de pestañas me cambió la mirada. Espacio súper limpio y elegante. Vale cada sol.",
     role: "Lifting de pestañas",
+    instagram: "",
+    instagramUrl: "",
+    avatar: "",
   },
   {
     name: "Andrea P.",
     text: "Encontré mi beauty center de cabecera. Profesionales, puntuales y resultados de verdad premium.",
     role: "Skincare + Cejas",
+    instagram: "",
+    instagramUrl: "",
+    avatar: "",
   },
 ];
 
@@ -444,9 +454,35 @@ function Testimonials() {
               <blockquote className="mt-4 font-serif text-xl leading-snug">
                 “{t.text}”
               </blockquote>
-              <figcaption className="mt-5 text-sm">
-                <div className="font-medium">{t.name}</div>
-                <div className="text-muted-foreground">{t.role}</div>
+              <figcaption className="mt-5 flex items-center gap-3 text-sm">
+                {t.avatar ? (
+                  <img
+                    src={t.avatar}
+                    alt={t.name}
+                    className="h-11 w-11 rounded-full object-cover ring-1 ring-border"
+                  />
+                ) : (
+                  <div className="flex h-11 w-11 items-center justify-center rounded-full bg-muted text-muted-foreground ring-1 ring-border">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
+                      <path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5Zm0 2c-4 0-8 2-8 6v1h16v-1c0-4-4-6-8-6Z" />
+                    </svg>
+                  </div>
+                )}
+                <div className="min-w-0">
+                  <div className="font-medium">{t.name}</div>
+                  {t.instagramUrl ? (
+                    <a
+                      href={t.instagramUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-muted-foreground transition hover:text-gold"
+                    >
+                      @{t.instagram}
+                    </a>
+                  ) : (
+                    <div className="text-muted-foreground">{t.role}</div>
+                  )}
+                </div>
               </figcaption>
             </figure>
           ))}
