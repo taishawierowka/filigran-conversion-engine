@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import heroImg from "@/assets/hero-beauty.jpg";
-import cejasImg from "@/assets/service-cejas.jpg";
+import cejasAsset from "@/assets/micropigmentacion-cejas.png.asset.json";
 import pestanasImg from "@/assets/service-pestanas.jpg";
 import liftingPestanasAsset from "@/assets/lifting-pestanas.png.asset.json";
 import labiosImg from "@/assets/service-labios.jpg";
