@@ -43,7 +43,7 @@ const services = [
   {
     title: "Micropigmentación de Cejas",
     desc: "Cejas perfectas 24/7 con técnica pelo a pelo y pigmentos premium.",
-    img: cejasImg,
+    img: cejasAsset.url,
     msg: "Hola Filigran 👋, vengo de Instagram y quiero información sobre Micropigmentación de Cejas.",
   },
   {
@@ -375,7 +375,7 @@ function BeforeAfter() {
         </div>
 
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {[cejasImg, pestanasImg, labiosImg].map((img, i) => (
+          {[cejasAsset.url, pestanasImg, labiosImg].map((img, i) => (
             <div key={i} className="relative overflow-hidden rounded-2xl">
               <img
                 src={img}
