@@ -275,7 +275,7 @@ function Services() {
           {services.map((s) => (
             <a
               key={s.title}
-              href={wa()}
+              href={wa(s.msg)}
               target="_blank"
               rel="noopener"
               className="group relative flex flex-col overflow-hidden rounded-2xl bg-card shadow-sm ring-1 ring-border transition hover:shadow-xl"
