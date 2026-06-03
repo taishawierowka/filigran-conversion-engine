@@ -554,7 +554,7 @@ function FinalCTA() {
           Reservar por WhatsApp
         </a>
         <p className="mt-4 text-xs text-cream/50">
-          Respuesta promedio: 5 minutos · Lun–Sáb 10:00–20:00
+          Respuesta promedio: 5 minutos · Lun–Vie 9:00–20:00 · Sáb 9:00–19:00
         </p>
       </div>
     </section>
