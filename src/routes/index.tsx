@@ -77,19 +77,28 @@ const services = [
 
 const testimonios = [
   {
-    name: "Camila R.",
-    text: "Mis cejas quedaron naturales y simétricas. La atención es impecable, te explican todo antes y durante. Volveré sin duda.",
-    role: "Micropigmentación de cejas",
+    name: "Vania Mitre",
+    text: "Fui a Filigran y de verdad me encantó la experiencia 💗 Me hice una limpieza facial profunda y la híper hidratación de labios, y todo estuvo increíble. Los tratamientos son súper relajantes y desde el primer momento me hicieron sentir demasiado cómoda y bien atendida.",
+    role: "Limpieza facial + Hidratación de labios",
+    instagram: "vaniamitre",
+    instagramUrl: "https://www.instagram.com/vaniamitre/",
+    avatar: vaniaAvatar.url,
   },
   {
     name: "Lucía M.",
     text: "El lifting de pestañas me cambió la mirada. Espacio súper limpio y elegante. Vale cada sol.",
     role: "Lifting de pestañas",
+    instagram: "",
+    instagramUrl: "",
+    avatar: "",
   },
   {
     name: "Andrea P.",
     text: "Encontré mi beauty center de cabecera. Profesionales, puntuales y resultados de verdad premium.",
     role: "Skincare + Cejas",
+    instagram: "",
+    instagramUrl: "",
+    avatar: "",
   },
 ];
 
