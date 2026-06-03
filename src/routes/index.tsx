@@ -7,6 +7,8 @@ import labiosImg from "@/assets/service-labios.jpg";
 import skincareImg from "@/assets/service-skincare.jpg";
 import nailsImg from "@/assets/service-nails.jpg";
 import salonImg from "@/assets/salon-interior.jpg";
+import sedeSanIsidro from "@/assets/sede-san-isidro.png.asset.json";
+import sedeMiraflores from "@/assets/sede-miraflores.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
