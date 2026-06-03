@@ -10,6 +10,7 @@ import salonImg from "@/assets/salon-interior.jpg";
 import sedeSanIsidro from "@/assets/sede-san-isidro.png.asset.json";
 import sedeMiraflores from "@/assets/sede-miraflores.jpg.asset.json";
 import vaniaAvatar from "@/assets/vania-mitre.png.asset.json";
+import daniAvatar from "@/assets/dani-ginocchio.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -85,12 +86,12 @@ const testimonios = [
     avatar: vaniaAvatar.url,
   },
   {
-    name: "Lucía M.",
-    text: "El lifting de pestañas me cambió la mirada. Espacio súper limpio y elegante. Vale cada sol.",
-    role: "Lifting de pestañas",
-    instagram: "",
-    instagramUrl: "",
-    avatar: "",
+    name: "Dani Ginocchio",
+    text: "Me encantó el servicio de lifting de pestañas y el Glow ✨ Los resultados quedaron increíbles y la atención fue súper buena. Definitivamente lo recomiendo 💗",
+    role: "Lifting de pestañas + Glow",
+    instagram: "daniginocchiop",
+    instagramUrl: "https://www.instagram.com/daniginocchiop/",
+    avatar: daniAvatar.url,
   },
   {
     name: "Andrea P.",
