@@ -13,6 +13,7 @@ import nailsImg from "@/assets/service-nails.jpg";
 import armonizacionCejasAsset from "@/assets/armonizacion-cejas.jpg.asset.json";
 import antesSkincareAsset from "@/assets/antes-skincare.jpg.asset.json";
 import filigranAccionVideo from "@/assets/filigran-en-accion.mp4.asset.json";
+import despuesSkincareAsset from "@/assets/despues-skincare.jpg.asset.json";
 import salonImg from "@/assets/salon-interior.jpg";
 import paquetesAsset from "@/assets/paquetes-gift.jpg.asset.json";
 import sedeSanIsidro from "@/assets/sede-san-isidro.png.asset.json";
@@ -400,7 +401,7 @@ function BeforeAfter() {
           {[
             { src: antesSkincareAsset.url, type: "image", label: "antes" },
             { src: filigranAccionVideo.url, type: "video", label: "filigran en accion" },
-            { src: labiosAsset.url, type: "image", label: "despues" },
+            { src: despuesSkincareAsset.url, type: "image", label: "despues" },
           ].map((item, i) => (
             <div key={i} className="relative overflow-hidden rounded-2xl">
               {item.type === "video" ? (
