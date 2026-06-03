@@ -272,14 +272,26 @@ function Services() {
               className="group relative flex flex-col overflow-hidden rounded-2xl bg-card shadow-sm ring-1 ring-border transition hover:shadow-xl"
             >
               <div className="aspect-[4/5] overflow-hidden">
-                <img
-                  src={s.img}
-                  alt={s.title}
-                  loading="lazy"
-                  width={800}
-                  height={800}
-                  className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
-                />
+                {"video" in s && (s as { video?: string }).video ? (
+                  <video
+                    src={(s as { video: string }).video}
+                    poster={s.img}
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+                  />
+                ) : (
+                  <img
+                    src={s.img}
+                    alt={s.title}
+                    loading="lazy"
+                    width={800}
+                    height={800}
+                    className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+                  />
+                )}
               </div>
               <div className="flex flex-1 flex-col p-6">
                 <h3 className="text-2xl">{s.title}</h3>
