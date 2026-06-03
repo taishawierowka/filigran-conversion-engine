@@ -67,7 +67,7 @@ const services = [
     msg: "Hola Filigran 👋, quiero reservar en el Nail Bar.",
   },
   {
-    title: "Tratamientos Combinados",
+    title: "Paquetes",
     desc: "Diseñamos un plan a medida para realzar tu belleza natural.",
     img: salonImg,
     msg: "Hola Filigran 👋, quisiera un plan personalizado de tratamientos.",
