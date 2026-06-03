@@ -94,20 +94,24 @@ const testimonios = [
 
 const faqs = [
   {
-    q: "¿La micropigmentación duele?",
-    a: "Aplicamos anestésico tópico de grado profesional. La mayoría de clientas describe la sensación como una leve molestia, no dolor.",
+    q: "¿Cuál es la diferencia entre Microblading, Nanoblading y Microshading?",
+    a: "Microblading: técnica pelo a pelo con acabado natural, ideal para cejas con vello grueso y piel normal a grasa. Su duración aproximada es de 8 a 12 meses.\n\nNanoblading: trazos ultra finos y precisos que imitan el vello natural. Recomendado para vello delgado y todo tipo de piel. Duración estimada de 6 a 10 meses. No se realiza sobre cejas con trabajos previos.\n\nMicroshading: combinación de efecto pelo a pelo y sombreado suave para un acabado más definido. Ideal para piel sensible o con poros visibles. Su duración puede variar entre 12 y 18 meses.",
   },
   {
-    q: "¿Cuánto dura el resultado?",
-    a: "Entre 12 y 24 meses dependiendo del tipo de piel, cuidados y exposición solar. Incluimos retoque a las 4 semanas.",
+    q: "¿La micropigmentación es dolorosa?",
+    a: "Aplicamos anestesia tópica profesional antes y durante el procedimiento para garantizar mayor confort. En la mayoría de los casos, la sensación se percibe como una leve incomodidad y no como dolor.",
   },
   {
-    q: "¿Trabajan con productos certificados?",
-    a: "Sí. Usamos pigmentos y descartables de marcas premium con certificación internacional y bioseguridad estricta.",
+    q: "¿Qué incluye la segunda sesión de micropigmentación?",
+    a: "Todas nuestras micropigmentaciones incluyen una segunda sesión de retoque sin costo, realizada aproximadamente a los 30 días. Esta etapa es fundamental para perfeccionar el resultado, reforzar la pigmentación y garantizar un acabado óptimo y duradero.",
   },
   {
-    q: "¿Cómo agendo mi cita?",
-    a: "Escríbenos por WhatsApp y nuestra asesora te responde en minutos para coordinar horario y resolver tus dudas.",
+    q: "¿Filigran ofrece servicio de uñas?",
+    a: "Actualmente no contamos con servicio de uñas. Hoy nos enfocamos exclusivamente en micropigmentación y tratamientos estéticos especializados.",
+  },
+  {
+    q: "¿Se aceptan devoluciones?",
+    a: "Las reservas abonadas mediante Yape o transferencia Interbank pueden solicitar devolución siempre que la cancelación se realice con más de 24 horas de anticipación.\n\nLos pagos realizados a través de link de pago Niubiz no cuentan con devolución debido a la restricción SUNAT.",
   },
 ];
 
