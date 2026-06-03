@@ -47,9 +47,9 @@ const services = [
     msg: "Hola Filigran 👋, vengo de Instagram y quiero información sobre Micropigmentación de Cejas.",
   },
   {
-    title: "Lifting & Tinte de Pestañas",
+    title: "Lifting de Pestañas",
     desc: "Mirada elevada y definida sin extensiones, por hasta 8 semanas.",
-    img: pestanasImg,
+    img: liftingPestanasAsset.url,
     msg: "Hola Filigran 👋, quisiera agendar Lifting de Pestañas.",
   },
   {
