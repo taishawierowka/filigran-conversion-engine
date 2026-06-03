@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import heroImg from "@/assets/hero-beauty.jpg";
+import heroAsset from "@/assets/hero-realzamos.jpg.asset.json";
 import cejasAsset from "@/assets/micropigmentacion-cejas.png.asset.json";
 import cejasVideo from "@/assets/micropigmentacion-cejas.mp4.asset.json";
 import pestanasImg from "@/assets/service-pestanas.jpg";
