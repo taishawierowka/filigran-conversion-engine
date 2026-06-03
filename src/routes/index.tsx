@@ -12,7 +12,7 @@ import skincareVideo from "@/assets/skincare-facial-v2.mp4.asset.json";
 import nailsImg from "@/assets/service-nails.jpg";
 import armonizacionCejasAsset from "@/assets/armonizacion-cejas.jpg.asset.json";
 import salonImg from "@/assets/salon-interior.jpg";
-import paquetesAsset from "@/assets/paquetes-aniversario.jpg.asset.json";
+import paquetesAsset from "@/assets/paquetes-gift.jpg.asset.json";
 import sedeSanIsidro from "@/assets/sede-san-isidro.png.asset.json";
 import sedeMiraflores from "@/assets/sede-miraflores.jpg.asset.json";
 import vaniaAvatar from "@/assets/vania-mitre.png.asset.json";
