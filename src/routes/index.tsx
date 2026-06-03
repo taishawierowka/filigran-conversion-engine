@@ -60,6 +60,7 @@ const services = [
     title: "Micropigmentación de Labios",
     desc: "Color natural, simetría perfecta y un acabado luminoso y duradero.",
     img: labiosAsset.url,
+    video: labiosVideo.url,
     msg: "Hola Filigran 👋, me interesa la Micropigmentación de Labios.",
   },
   {
