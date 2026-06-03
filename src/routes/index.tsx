@@ -451,26 +451,58 @@ function Testimonials() {
 
 function Locations() {
   const locs = [
-    { n: "Filigran San Isidro", a: "Av. Conquistadores 123, San Isidro", h: "Lun–Sáb · 10:00–20:00" },
-    { n: "Filigran Miraflores", a: "Av. Larco 456, Miraflores", h: "Lun–Sáb · 10:00–20:00" },
-    { n: "Filigran La Molina", a: "Av. Javier Prado 789, La Molina", h: "Lun–Sáb · 10:00–20:00" },
+    { n: "Filigran San Isidro · Sede 1", a: "Calle Los Laureles 519, Segundo Piso · San Isidro", h: "Lun–Vie · 9:00–20:00 · Sáb 9:00–19:00", img: sedeSanIsidro.url, alt: "Recepción de Filigran sede San Isidro" },
+    { n: "Filigran Miraflores · Sede 2", a: "Calle Berlín 608, Segundo Piso · Miraflores", h: "Lun–Vie · 9:00–20:00 · Sáb 9:00–19:00", img: sedeMiraflores.url, alt: "Fachada del edificio SoHo Life — sede Filigran Miraflores" },
   ];
   return (
     <section className="bg-cocoa px-5 py-20 text-cream sm:py-28">
-      <div className="mx-auto grid max-w-6xl gap-12 lg:grid-cols-2 lg:items-center">
-        <div className="overflow-hidden rounded-2xl">
-          <img
-            src={salonImg}
-            alt="Interior del beauty center Filigran"
-            loading="lazy"
-            width={1280}
-            height={800}
-            className="h-full w-full object-cover"
-          />
-        </div>
-        <div>
+      <div className="mx-auto max-w-6xl">
+        <div className="mb-12 max-w-2xl">
           <p className="mb-3 text-[11px] uppercase tracking-[0.35em] text-gold">Locales</p>
-          <h2 className="text-4xl text-cream sm:text-5xl">3 espacios en Lima.</h2>
+          <h2 className="text-4xl text-cream sm:text-5xl">2 espacios en Lima.</h2>
+          <p className="mt-4 text-cream/75">
+            Elige el local que te quede más cerca. Atención con cita previa
+            para garantizar tu experiencia.
+          </p>
+        </div>
+
+        <div className="grid gap-6 md:grid-cols-2">
+          {locs.map((l) => (
+            <div key={l.n} className="overflow-hidden rounded-2xl bg-cocoa ring-1 ring-cream/15">
+              <div className="aspect-[4/3] overflow-hidden">
+                <img
+                  src={l.img}
+                  alt={l.alt}
+                  loading="lazy"
+                  className="h-full w-full object-cover"
+                />
+              </div>
+              <div className="p-6">
+                <div className="flex flex-wrap items-baseline justify-between gap-2">
+                  <h3 className="text-xl text-cream">{l.n}</h3>
+                  <a
+                    href={wa()}
+                    target="_blank"
+                    rel="noopener"
+                    className="text-xs uppercase tracking-[0.25em] text-gold"
+                  >
+                    Reservar →
+                  </a>
+                </div>
+                <p className="mt-2 text-sm text-cream/70">{l.a}</p>
+                <p className="mt-1 text-xs text-cream/50">{l.h}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function _OldLocations() {
+  return null;
+
           <p className="mt-4 max-w-md text-cream/75">
             Elige el local que te quede más cerca. Atención con cita previa
             para garantizar tu experiencia.
