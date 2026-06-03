@@ -45,6 +45,7 @@ const services = [
     title: "Micropigmentación de Cejas",
     desc: "Cejas perfectas 24/7 con técnica pelo a pelo y pigmentos premium.",
     img: cejasAsset.url,
+    video: cejasVideo.url,
     msg: "Hola Filigran 👋, vengo de Instagram y quiero información sobre Micropigmentación de Cejas.",
   },
   {
