@@ -482,7 +482,7 @@ function Testimonials() {
           </div>
           <div className="hidden text-right sm:block">
             <div className="flex items-center justify-end gap-2">
-              <Stars className="text-gold" /> <span className="font-medium">Cejas</span>
+              <Stars className="text-gold" /> <span className="font-medium">4.7</span>
             </div>
             <p className="text-xs text-muted-foreground">+80 reseñas verificadas</p>
           </div>
