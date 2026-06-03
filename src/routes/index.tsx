@@ -221,7 +221,7 @@ function Hero() {
           </a>
           <a
             href="#servicios"
-            className="inline-flex h-14 items-center justify-center rounded-full border border-cream/30 px-4 text-sm tracking-wider text-cream/90 transition hover:border-cream/70 sm:px-7 mx-[24px]"
+            className="inline-flex h-14 items-center justify-center rounded-full border border-cream/30 text-sm tracking-wider text-cream/90 transition hover:border-cream/70 sm:px-7 mx-[24px] px-[16px]"
           >
             VER SERVICIOS
           </a>
