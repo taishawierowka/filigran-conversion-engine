@@ -462,7 +462,7 @@ function Locations() {
       <div className="mx-auto max-w-6xl">
         <div className="mb-12 max-w-2xl">
           <p className="mb-3 text-[11px] uppercase tracking-[0.35em] text-gold">Locales</p>
-          <h2 className="text-4xl text-cream sm:text-5xl">2 espacios en Lima.</h2>
+          <h2 className="text-4xl text-cream sm:text-5xl">Elegí tu espacio Filigran y viví la experiencia.</h2>
           <p className="mt-4 text-cream/75">
             Elige el local que te quede más cerca. Atención con cita previa
             para garantizar tu experiencia.
