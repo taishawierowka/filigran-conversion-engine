@@ -44,8 +44,8 @@ export const Route = createFileRoute("/")({
 });
 
 const WA_PHONE = "51960339209";
-const wa = () =>
-  `https://wa.me/${WA_PHONE}?text=${encodeURIComponent("Hola, quiero mas informacion")}`;
+const wa = (msg = "Hola, quiero mas informacion") =>
+  `https://wa.me/${WA_PHONE}?text=${encodeURIComponent(msg)}`;
 
 const services = [
   {
@@ -53,39 +53,39 @@ const services = [
     desc: "Cejas perfectas 24/7 con técnica pelo a pelo y pigmentos premium.",
     img: cejasAsset.url,
     video: cejasVideo.url,
-    msg: "Hola Filigran 👋, vengo de Instagram y quiero información sobre Micropigmentación de Cejas.",
+    msg: "Hola, quiero mas informacion de Micropigmentación de Cejas",
   },
   {
     title: "Lifting de Pestañas",
     desc: "Mirada elevada y definida sin extensiones, por hasta 8 semanas.",
     img: liftingPestanasAsset.url,
-    msg: "Hola Filigran 👋, quisiera agendar Lifting de Pestañas.",
+    msg: "Hola, quiero mas informacion de Lifting de Pestañas",
   },
   {
     title: "Micropigmentación de Labios",
     desc: "Color natural, simetría perfecta y un acabado luminoso y duradero.",
     img: labiosAsset.url,
     video: labiosVideo.url,
-    msg: "Hola Filigran 👋, me interesa la Micropigmentación de Labios.",
+    msg: "Hola, quiero mas informacion de Micropigmentación de Labios",
   },
   {
     title: "Armonización de cejas",
     desc: "Diseñamos y realzamos tus cejas respetando su forma natural y la armonía de tu rostro. Tratamientos personalizados para lograr una mirada más definida, estilizada y naturalmente hermosa.",
     img: armonizacionCejasAsset.url,
-    msg: "Hola Filigran 👋, quiero información sobre Armonización de cejas.",
+    msg: "Hola, quiero mas informacion de Armonización de cejas",
   },
   {
     title: "Skincare & Limpieza Facial",
     desc: "Protocolos personalizados para una piel luminosa y saludable.",
     img: skincareAsset.url,
     video: skincareVideo.url,
-    msg: "Hola Filigran 👋, quisiera información sobre Limpieza Facial.",
+    msg: "Hola, quiero mas informacion de Skincare & Limpieza Facial",
   },
   {
     title: "Paquetes",
     desc: "Diseñamos un plan a medida para realzar tu belleza natural.",
     img: paquetesAsset.url,
-    msg: "Hola Filigran 👋, quisiera un plan personalizado de tratamientos.",
+    msg: "Hola, quiero mas informacion de Paquetes",
   },
 ];
 
@@ -275,7 +275,7 @@ function Services() {
           {services.map((s) => (
             <a
               key={s.title}
-              href={wa()}
+              href={wa(s.msg)}
               target="_blank"
               rel="noopener"
               className="group relative flex flex-col overflow-hidden rounded-2xl bg-card shadow-sm ring-1 ring-border transition hover:shadow-xl"
