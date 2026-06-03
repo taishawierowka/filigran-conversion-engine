@@ -55,7 +55,7 @@ const services = [
   {
     title: "Micropigmentación de Labios",
     desc: "Color natural, simetría perfecta y un acabado luminoso y duradero.",
-    img: labiosImg,
+    img: labiosAsset.url,
     msg: "Hola Filigran 👋, me interesa la Micropigmentación de Labios.",
   },
   {
@@ -375,7 +375,7 @@ function BeforeAfter() {
         </div>
 
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {[cejasAsset.url, pestanasImg, labiosImg].map((img, i) => (
+          {[cejasAsset.url, pestanasImg, labiosAsset.url].map((img, i) => (
             <div key={i} className="relative overflow-hidden rounded-2xl">
               <img
                 src={img}
