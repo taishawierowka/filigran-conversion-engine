@@ -169,7 +169,7 @@ function Hero() {
         <div className="absolute inset-0 bg-gradient-to-t from-cocoa/95 via-cocoa/20 to-cocoa/40" />
       </div>
 
-      <div className="mx-auto flex min-h-[100svh] max-w-6xl flex-col justify-end px-5 pb-14 pt-32 sm:justify-center sm:pb-24 sm:pt-32">
+      <div className="mx-auto flex min-h-[100svh] max-w-6xl flex-col justify-end px-5 pb-14 pt-32 sm:justify-center sm:pb-24 sm:pt-32 opacity-65">
         <p className="mb-5 text-[11px] uppercase tracking-[0.4em] text-gold">
           Filigran · Beauty Center
         </p>
