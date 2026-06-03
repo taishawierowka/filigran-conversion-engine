@@ -81,7 +81,7 @@ const services = [
   {
     title: "Paquetes",
     desc: "Diseñamos un plan a medida para realzar tu belleza natural.",
-    img: salonImg,
+    img: paquetesAsset.url,
     msg: "Hola Filigran 👋, quisiera un plan personalizado de tratamientos.",
   },
 ];
