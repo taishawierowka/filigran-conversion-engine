@@ -185,7 +185,7 @@ function Hero() {
             href={wa()}
             target="_blank"
             rel="noopener"
-            className="group inline-flex h-14 items-center justify-center gap-3 rounded-full bg-whatsapp px-7 text-base font-medium text-white shadow-lg shadow-whatsapp/30 transition hover:bg-whatsapp-dark"
+            className="group inline-flex h-14 items-center justify-center gap-3 rounded-full bg-whatsapp px-4 text-base font-medium text-white shadow-lg shadow-whatsapp/30 transition hover:bg-whatsapp-dark sm:px-7"
           >
             <WaIcon className="h-5 w-5" />
             Agendar por WhatsApp
@@ -193,7 +193,7 @@ function Hero() {
           </a>
           <a
             href="#servicios"
-            className="inline-flex h-14 items-center justify-center rounded-full border border-cream/30 px-7 text-sm tracking-wider text-cream/90 transition hover:border-cream/70"
+            className="inline-flex h-14 items-center justify-center rounded-full border border-cream/30 px-4 text-sm tracking-wider text-cream/90 transition hover:border-cream/70 sm:px-7"
           >
             VER SERVICIOS
           </a>
