@@ -542,7 +542,7 @@ function FinalCTA() {
       <div className="mx-auto max-w-5xl overflow-hidden rounded-3xl bg-gradient-to-br from-cocoa to-[oklch(0.28_0.025_50)] px-7 py-16 text-center text-cream sm:py-20">
         <p className="mb-3 text-[11px] uppercase tracking-[0.35em] text-gold">Tu cita te espera</p>
         <h2 className="mx-auto max-w-2xl text-4xl text-cream sm:text-5xl">
-          Reserva en menos de <em className="not-italic text-gold">1 minuto</em>.
+          Reserva en menos de <em className="not-italic text-gold">5 minutos</em>.
         </h2>
         <p className="mx-auto mt-4 max-w-lg text-cream/75">
           Te respondemos al instante por WhatsApp. Sin formularios, sin
@@ -558,7 +558,7 @@ function FinalCTA() {
           Reservar por WhatsApp
         </a>
         <p className="mt-4 text-xs text-cream/50">
-          Respuesta promedio: 5 minutos · Lun–Vie 9:00–20:00 · Sáb 9:00–19:00
+          Lun–Vie 9:00–20:00 · Sáb 9:00–19:00
         </p>
       </div>
     </section>
