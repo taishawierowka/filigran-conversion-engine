@@ -6,6 +6,7 @@ import cejasVideo from "@/assets/micropigmentacion-cejas.mp4.asset.json";
 import pestanasImg from "@/assets/service-pestanas.jpg";
 import liftingPestanasAsset from "@/assets/lifting-pestanas.jpg.asset.json";
 import labiosAsset from "@/assets/micropigmentacion-labios.jpg.asset.json";
+import labiosVideo from "@/assets/micropigmentacion-labios.mp4.asset.json";
 import skincareAsset from "@/assets/skincare-facial.jpg.asset.json";
 import skincareVideo from "@/assets/skincare-facial-v2.mp4.asset.json";
 import nailsImg from "@/assets/service-nails.jpg";
@@ -59,6 +60,7 @@ const services = [
     title: "Micropigmentación de Labios",
     desc: "Color natural, simetría perfecta y un acabado luminoso y duradero.",
     img: labiosAsset.url,
+    video: labiosVideo.url,
     msg: "Hola Filigran 👋, me interesa la Micropigmentación de Labios.",
   },
   {
