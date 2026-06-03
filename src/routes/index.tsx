@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import heroImg from "@/assets/hero-beauty.jpg";
 import cejasAsset from "@/assets/micropigmentacion-cejas.png.asset.json";
+import cejasVideo from "@/assets/micropigmentacion-cejas.mp4.asset.json";
 import pestanasImg from "@/assets/service-pestanas.jpg";
 import liftingPestanasAsset from "@/assets/lifting-pestanas.jpg.asset.json";
 import labiosAsset from "@/assets/micropigmentacion-labios.jpg.asset.json";
