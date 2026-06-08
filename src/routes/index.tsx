@@ -43,7 +43,7 @@ export const Route = createFileRoute("/")({
   component: Landing,
 });
 
-const WA_PHONE = "51960339209";
+const WA_PHONE = "51983575587";
 const wa = (msg = "Hola, quiero mas informacion") =>
   `https://wa.me/${WA_PHONE}?text=${encodeURIComponent(msg)}`;
 
